@@ -1,0 +1,9 @@
+{
+  "get_name": "Enter your name: ",
+  "get_surname": "Enter your surname: ",
+  "get_telephone_number": "Enter your telephone number: ",
+  "get_users_city": "Enter your city: ",
+  "report_for_find_city": "Enter city, where you want to find help: ",
+  "ask_user_what_he_looking_for": "You want to give help, or you need help [give/need]",
+  "enter_self_info": "Please, answer a few questions "
+}
