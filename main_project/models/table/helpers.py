@@ -1,9 +1,9 @@
-from main_project.base.base import Base
+from main_project.models.base.base import Base
 from sqlalchemy import Column, Integer, String
 
 
-class User(Base):
-    __tablename__ = 'users'
+class Helpers(Base):
+    __tablename__ = 'helpers'
     id = Column(Integer, primary_key=True)
     name = Column(String)
     surname = Column(String)

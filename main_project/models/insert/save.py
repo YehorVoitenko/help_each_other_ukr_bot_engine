@@ -1,4 +1,4 @@
-from main_project.base.base import Session
+from main_project.models.base.base import Session
 
 session = Session()
 
