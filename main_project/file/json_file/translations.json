@@ -4,6 +4,10 @@
   "get_telephone_number": "Enter your telephone number: ",
   "get_users_city": "Enter your city: ",
   "report_for_find_city": "Enter city, where you want to find help: ",
-  "ask_user_what_he_looking_for": "You want to give help, or you need help [give/need]",
-  "enter_self_info": "Please, answer a few questions "
+  "ask_user_what_he_looking_for": "You want to give help, or you need help [give/need](write)... ",
+  "enter_self_info": "Please, answer a few questions ",
+  "thanks_for_help": "Thanks for your big heart, want to help your citizen these dark days) ",
+
+  "give": "give",
+  "need": "need"
 }

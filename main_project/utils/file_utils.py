@@ -4,6 +4,6 @@ from main_project.utils.string_utils import Translation
 
 
 def get_translation(file: str = TRANSLATIONS):
-    with open(file, encoding='utf_8_sig') as text:
+    with open(file) as text:
         kwargs = json.load(text)
     return Translation(**kwargs)

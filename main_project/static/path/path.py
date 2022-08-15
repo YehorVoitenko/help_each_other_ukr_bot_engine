@@ -1,1 +1,1 @@
-TRANSLATIONS = "main_project/file/json_file/translations.json"
+TRANSLATIONS = "E:\\bot_help_zsu\main_project\\file\json_file\\translations.json"
