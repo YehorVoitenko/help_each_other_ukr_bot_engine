@@ -14,8 +14,3 @@ while True or interact_type != interface_phrase.stop:
         exit()
     else:
         print(interface_phrase.syntax_error)
-
-
-
-
-
