@@ -3,14 +3,19 @@ from main_project.utils.file_utils import get_translation
 
 interface_phrase = get_translation()
 
-interact_type = choose_your_report()
+while True or interact_type != interface_phrase.stop:
+    interact_type = choose_your_report()
+
+    if interact_type == interface_phrase.give:
+        interact_with_helper()
+    elif interact_type == interface_phrase.need:
+        interact_with_needy()
+    elif interact_type == interface_phrase.stop:
+        exit()
+    else:
+        print(interface_phrase.syntax_error)
 
 
-if interact_type == interface_phrase.give:
-    interact_with_helper()
-elif interact_type == interface_phrase.need:
-    interact_with_needy()
-else:
-    print(interface_phrase.syntax_error)
+
 
 

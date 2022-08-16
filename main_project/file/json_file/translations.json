@@ -4,13 +4,16 @@
   "get_telephone_number": "Enter your telephone number: ",
   "get_users_city": "Enter your city: ",
   "report_for_find_city": "Enter city, where you want to find help: ",
-  "ask_user_what_he_looking_for": "You want to give help, or you need help [give/need](write)... ",
+  "ask_user_what_he_looking_for": "You want to give help, or you need help [give/need/stop](write)... ",
   "enter_self_info": "Please, answer a few questions ",
   "thanks_for_help": "Thanks for your big heart, want to help your citizen these dark days) ",
-  "write_help_description": "Please, describe what help can you propose in 200 symbols",
+  "write_help_description": "Please, describe what help can you propose in 200 symbols:\n",
+  "get_key_help_words": "Please, write a few key words, for easier search who needs:\n",
+  "add_key_words": "Please, write a few key words, for easier search example: table, chair, toys\n",
 
   "give": "give",
   "need": "need",
+  "stop": "stop",
 
-  "syntax_error": "[ERROR] Write only \\'give\\' or \\'need\\'"
+  "syntax_error": "[ERROR] Write only \\'give\\', or \\'need\\ or \\'stop\\'"
 }
