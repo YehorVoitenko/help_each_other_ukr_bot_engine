@@ -7,7 +7,10 @@
   "ask_user_what_he_looking_for": "You want to give help, or you need help [give/need](write)... ",
   "enter_self_info": "Please, answer a few questions ",
   "thanks_for_help": "Thanks for your big heart, want to help your citizen these dark days) ",
+  "write_help_description": "Please, describe what help can you propose in 200 symbols",
 
   "give": "give",
-  "need": "need"
+  "need": "need",
+
+  "syntax_error": "[ERROR] Write only \\'give\\' or \\'need\\'"
 }
