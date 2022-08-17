@@ -6,14 +6,20 @@ session = Session()
 
 def get_user_info_by_city(city: str):
     users = session.query(Helpers).filter(Helpers.location_city == city).all()
-    return users
+    if users:
+        return users
+    else:
+        print('nothing in search')
+        exit()
 
 
 def get_user_info_by_key_words(key_words: str):
     result = session.query(Helpers).filter(Helpers.key_help_words.contains(f" {key_words}")).all()
     if result:
         return result
-
+    else:
+        print('nothing in search')
+        exit()
 
 
 def get_user_info_all():
